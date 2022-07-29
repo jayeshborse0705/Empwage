@@ -16,6 +16,10 @@ namespace EmployeeWageComputation
                     EmpPresentOrNot empPresentAbsent = new EmpPresentOrNot();
                     empPresentAbsent.CheckEmpPresentAbsent();
                     break;
+                case 2:
+                    DailyWage dailyEmpWage = new DailyWage();
+                    dailyEmpWage.DailyWage();
+                    break;
             }
         }
     }
